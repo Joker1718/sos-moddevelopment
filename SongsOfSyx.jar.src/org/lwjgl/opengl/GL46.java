@@ -1,0 +1,151 @@
+/*     */ package org.lwjgl.opengl;
+/*     */ 
+/*     */ import java.nio.ByteBuffer;
+/*     */ import java.nio.IntBuffer;
+/*     */ import org.lwjgl.system.NativeType;
+/*     */ 
+/*     */ public class GL46
+/*     */   extends GL45 {
+/*     */   public static final int GL_PARAMETER_BUFFER = 33006;
+/*     */   public static final int GL_PARAMETER_BUFFER_BINDING = 33007;
+/*     */   public static final int GL_VERTICES_SUBMITTED = 33518;
+/*     */   public static final int GL_PRIMITIVES_SUBMITTED = 33519;
+/*     */   public static final int GL_VERTEX_SHADER_INVOCATIONS = 33520;
+/*     */   
+/*     */   static {
+/*  16 */     GL.initialize();
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static final int GL_TESS_CONTROL_SHADER_PATCHES = 33521;
+/*     */   
+/*     */   public static final int GL_TESS_EVALUATION_SHADER_INVOCATIONS = 33522;
+/*     */   
+/*     */   public static final int GL_GEOMETRY_SHADER_PRIMITIVES_EMITTED = 33523;
+/*     */   
+/*     */   public static final int GL_FRAGMENT_SHADER_INVOCATIONS = 33524;
+/*     */   
+/*     */   public static final int GL_COMPUTE_SHADER_INVOCATIONS = 33525;
+/*     */   
+/*     */   public static final int GL_CLIPPING_INPUT_PRIMITIVES = 33526;
+/*     */   
+/*     */   public static final int GL_CLIPPING_OUTPUT_PRIMITIVES = 33527;
+/*     */   
+/*     */   public static final int GL_POLYGON_OFFSET_CLAMP = 36379;
+/*     */   
+/*     */   public static final int GL_CONTEXT_FLAG_NO_ERROR_BIT = 8;
+/*     */   
+/*     */   public static final int GL_SHADER_BINARY_FORMAT_SPIR_V = 38225;
+/*     */   
+/*     */   public static final int GL_SPIR_V_BINARY = 38226;
+/*     */   
+/*     */   public static final int GL_SPIR_V_EXTENSIONS = 38227;
+/*     */   
+/*     */   public static final int GL_NUM_SPIR_V_EXTENSIONS = 38228;
+/*     */   
+/*     */   public static final int GL_TEXTURE_MAX_ANISOTROPY = 34046;
+/*     */   
+/*     */   public static final int GL_MAX_TEXTURE_MAX_ANISOTROPY = 34047;
+/*     */   
+/*     */   public static final int GL_TRANSFORM_FEEDBACK_OVERFLOW = 33516;
+/*     */   
+/*     */   public static final int GL_TRANSFORM_FEEDBACK_STREAM_OVERFLOW = 33517;
+/*     */   
+/*     */   protected GL46() {
+/*  55 */     throw new UnsupportedOperationException();
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public static void nglMultiDrawArraysIndirectCount(int mode, long indirect, long drawcount, int maxdrawcount, int stride) {
+/*  62 */     GL46C.nglMultiDrawArraysIndirectCount(mode, indirect, drawcount, maxdrawcount, stride);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static void glMultiDrawArraysIndirectCount(@NativeType("GLenum") int mode, @NativeType("void const *") ByteBuffer indirect, @NativeType("GLintptr") long drawcount, @NativeType("GLsizei") int maxdrawcount, @NativeType("GLsizei") int stride) {
+/*  67 */     GL46C.glMultiDrawArraysIndirectCount(mode, indirect, drawcount, maxdrawcount, stride);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static void glMultiDrawArraysIndirectCount(@NativeType("GLenum") int mode, @NativeType("void const *") long indirect, @NativeType("GLintptr") long drawcount, @NativeType("GLsizei") int maxdrawcount, @NativeType("GLsizei") int stride) {
+/*  72 */     GL46C.glMultiDrawArraysIndirectCount(mode, indirect, drawcount, maxdrawcount, stride);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static void glMultiDrawArraysIndirectCount(@NativeType("GLenum") int mode, @NativeType("void const *") IntBuffer indirect, @NativeType("GLintptr") long drawcount, @NativeType("GLsizei") int maxdrawcount, @NativeType("GLsizei") int stride) {
+/*  77 */     GL46C.glMultiDrawArraysIndirectCount(mode, indirect, drawcount, maxdrawcount, stride);
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public static void nglMultiDrawElementsIndirectCount(int mode, int type, long indirect, long drawcount, int maxdrawcount, int stride) {
+/*  84 */     GL46C.nglMultiDrawElementsIndirectCount(mode, type, indirect, drawcount, maxdrawcount, stride);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static void glMultiDrawElementsIndirectCount(@NativeType("GLenum") int mode, @NativeType("GLenum") int type, @NativeType("void const *") ByteBuffer indirect, @NativeType("GLintptr") long drawcount, @NativeType("GLsizei") int maxdrawcount, @NativeType("GLsizei") int stride) {
+/*  89 */     GL46C.glMultiDrawElementsIndirectCount(mode, type, indirect, drawcount, maxdrawcount, stride);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static void glMultiDrawElementsIndirectCount(@NativeType("GLenum") int mode, @NativeType("GLenum") int type, @NativeType("void const *") long indirect, @NativeType("GLintptr") long drawcount, @NativeType("GLsizei") int maxdrawcount, @NativeType("GLsizei") int stride) {
+/*  94 */     GL46C.glMultiDrawElementsIndirectCount(mode, type, indirect, drawcount, maxdrawcount, stride);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static void glMultiDrawElementsIndirectCount(@NativeType("GLenum") int mode, @NativeType("GLenum") int type, @NativeType("void const *") IntBuffer indirect, @NativeType("GLintptr") long drawcount, @NativeType("GLsizei") int maxdrawcount, @NativeType("GLsizei") int stride) {
+/*  99 */     GL46C.glMultiDrawElementsIndirectCount(mode, type, indirect, drawcount, maxdrawcount, stride);
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public static void glPolygonOffsetClamp(@NativeType("GLfloat") float factor, @NativeType("GLfloat") float units, @NativeType("GLfloat") float clamp) {
+/* 106 */     GL46C.glPolygonOffsetClamp(factor, units, clamp);
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public static void nglSpecializeShader(int shader, long pEntryPoint, int numSpecializationConstants, long pConstantIndex, long pConstantValue) {
+/* 113 */     GL46C.nglSpecializeShader(shader, pEntryPoint, numSpecializationConstants, pConstantIndex, pConstantValue);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static void glSpecializeShader(@NativeType("GLuint") int shader, @NativeType("GLchar const *") ByteBuffer pEntryPoint, @NativeType("GLuint const *") IntBuffer pConstantIndex, @NativeType("GLuint const *") IntBuffer pConstantValue) {
+/* 118 */     GL46C.glSpecializeShader(shader, pEntryPoint, pConstantIndex, pConstantValue);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static void glSpecializeShader(@NativeType("GLuint") int shader, @NativeType("GLchar const *") CharSequence pEntryPoint, @NativeType("GLuint const *") IntBuffer pConstantIndex, @NativeType("GLuint const *") IntBuffer pConstantValue) {
+/* 123 */     GL46C.glSpecializeShader(shader, pEntryPoint, pConstantIndex, pConstantValue);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static void glMultiDrawArraysIndirectCount(@NativeType("GLenum") int mode, @NativeType("void const *") int[] indirect, @NativeType("GLintptr") long drawcount, @NativeType("GLsizei") int maxdrawcount, @NativeType("GLsizei") int stride) {
+/* 128 */     GL46C.glMultiDrawArraysIndirectCount(mode, indirect, drawcount, maxdrawcount, stride);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static void glMultiDrawElementsIndirectCount(@NativeType("GLenum") int mode, @NativeType("GLenum") int type, @NativeType("void const *") int[] indirect, @NativeType("GLintptr") long drawcount, @NativeType("GLsizei") int maxdrawcount, @NativeType("GLsizei") int stride) {
+/* 133 */     GL46C.glMultiDrawElementsIndirectCount(mode, type, indirect, drawcount, maxdrawcount, stride);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static void glSpecializeShader(@NativeType("GLuint") int shader, @NativeType("GLchar const *") ByteBuffer pEntryPoint, @NativeType("GLuint const *") int[] pConstantIndex, @NativeType("GLuint const *") int[] pConstantValue) {
+/* 138 */     GL46C.glSpecializeShader(shader, pEntryPoint, pConstantIndex, pConstantValue);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public static void glSpecializeShader(@NativeType("GLuint") int shader, @NativeType("GLchar const *") CharSequence pEntryPoint, @NativeType("GLuint const *") int[] pConstantIndex, @NativeType("GLuint const *") int[] pConstantValue) {
+/* 143 */     GL46C.glSpecializeShader(shader, pEntryPoint, pConstantIndex, pConstantValue);
+/*     */   }
+/*     */ }
+
+
+/* Location:              C:\Users\Administrator\Documents\Tasks\Works.Dump\SongsOfSyx\mods_development\SongsOfSyx.jar!\org\lwjgl\opengl\GL46.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */

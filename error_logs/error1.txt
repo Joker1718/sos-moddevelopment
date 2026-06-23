@@ -1,0 +1,153 @@
+
+
+|-------------------|
+|     ERROR LOG     |
+|-------------------|
+java.lang.ExceptionInInitializerError
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Unknown Source)
+	at java.base/java.lang.Class.forName(Unknown Source)
+	at script.ScriptLoad$Init.processJarEntry(ScriptLoad.java:186)
+	at script.ScriptLoad$Init.compileScripts(ScriptLoad.java:76)
+	at script.ScriptLoad.getAll(ScriptLoad.java:41)
+	at script.ScriptEngine.getAll(ScriptEngine.java:90)
+	at menu.ScRandom$Scripts.<init>(ScRandom.java:260)
+	at menu.ScRandom.<init>(ScRandom.java:222)
+	at menu.Menu.<init>(Menu.java:92)
+	at menu.Menu.make(Menu.java:68)
+	at menu.Menu$2.getState(Menu.java:60)
+	at snake2d.Updater.run(Updater.java:39)
+Caused by: java.lang.NullPointerException: Cannot read field 'secondsPerDay' because 'game.time.TIME.t' is null
+	at game.time.TIME.secondsPerDay(TIME.java:232)
+	at game.events.faction.EventFactionCollapse.<clinit>(EventFactionCollapse.java:30)
+	... 13 more
+Time until crash: 0.0
+MEM DIAGNOSE
+--JRE Memory
+--JRE Total: 499
+--JRE Free: 383
+--JRE Used: 115
+--JRE Max: 3998
+--JRE Memory After GC
+--JRE Total: 499
+--JRE Free: 475
+--JRE Used: 24
+--JRE Max: 3998
+NVIDIA: 
+--GPU Dedicated: 262144
+--GPU Total Available: 262144
+--GPU Current Available: 91596
+--GPU Evictions: 289
+--GPU Evicted: 1223028
+ATI: 
+--Renderbuffer Free: 0
+--Texture Free: 0
+--Vbo Free: 0
+
+
+|-------------------|
+|      STD OUT      |
+|-------------------|
+
+[GAME] (init.MainProcess.java:22)
+[22]  *******************************
+[23]  * GAME 0.71.38
+[24]  *******************************
+
+[GAME] (init.paths.PATHS.java:94)
+[94]  INITING PATHS
+[98]  MODS
+[107] Hauler Spawner MOD 71 Hauler Spawner MOD
+[130] hash: 1428490145
+[131] texture cache: 4096
+[172] PATHS
+[174] C:\Users\Administrator\AppData\Roaming\songsofsyx\mods\Hauler Spawner MOD\V71
+      /data
+
+[SNAKE2D] SYSTEM INFO
+[SNAKE2D] ---Running on a: Windows 11, amd64 Platform. WINDOWS
+[SNAKE2D] ---jre: 21.0.11 bits: 64
+[SNAKE2D] ---charset: UTF-8
+[SNAKE2D] ---Processors avalible: 4
+[SNAKE2D] ---JRE Memory
+[SNAKE2D]       Total: 499
+[SNAKE2D]       Free: 468
+[SNAKE2D]       Used: 31
+[SNAKE2D]       Max: 3998
+[SNAKE2D] ---JRE Input Arguments : : -Xms512m, -Xmx4096m, -XX:+UseCompressedOops, -Dfile.encoding=UTF-8, -Dfml.earlyprogresswindow=false, -XX:+UseSerialGC, 
+[SNAKE2D] ---JRE cp : : C:\GOG Games\Songs of Syx\base\script\000_Tutorial.jar;C:\GOG Games\Songs of Syx\base\script\001_Tutorial.jar;C:\Users\Administrator\AppData\Roaming\songsofsyx\mods\Hauler Spawner MOD\V71\script\HaulerSpawnerMOD.jar;C:\GOG Games\Songs of Syx\SongsOfSyx.jar, 
+[SNAKE2D] ------------------------
+
+[SNAKE2D] DISPLAYS
+[SNAKE2D] DISPLAY 0 ( 1280x800@60Hz ) : 
+ | 640x480@50Hz | 640x480@60Hz | 768x480@50Hz | 768x480@60Hz | 800x600@50Hz | 800x600@60Hz | 960x600@50Hz | 960x600@60Hz | 1024x768@50Hz | 1024x768@60Hz | 1280x720@50Hz | 1280x720@60Hz | 1280x768@50Hz | 1280x768@60Hz | 1280x800@50Hz | 1280x800@60Hz
+[SNAKE2D] ------------------------
+
+[SNAKE2D] SETTINGS
+[SNAKE2D] Debug: false
+[SNAKE2D] Native Screen: 1280x800
+[SNAKE2D] Display: 1280x800@60Hz
+[SNAKE2D] Full: false
+[SNAKE2D] Mode: 0
+[SNAKE2D] Fit: true
+[SNAKE2D] Linear: true
+[SNAKE2D] VSync: false
+[SNAKE2D] ------------------------
+
+[SNAKE2D] GRAPHICS
+[SNAKE2D] ---attempting resolution: 1280x800, 60Hz, borderless, monitor 0 (Generic PnP Monitor)
+[SNAKE2D] ---Setting FPS to 60
+[SNAKE2D] ---created resolution: 1280x800, 60Hz
+[SNAKE2D] ---LWJGL: 3.4.1-snapshot
+[SNAKE2D] ---GLFW: 3.5.0 Win32 WGL Null EGL OSMesa VisualC DLL
+[SNAKE2D] OPEN_GL
+[SNAKE2D] ---FB size: 1280x800
+[SNAKE2D] ---FB Red Bits: 8
+[SNAKE2D] ---FB Green Bits: 8
+[SNAKE2D] ---FB Blue Bits: 8
+[SNAKE2D] ---FB Alpha Bits: 8
+[SNAKE2D] ---FB Samples: 0
+[SNAKE2D] ---Max Texture Dim: 8192
+[SNAKE2D] ---Version: 3.3.0
+[SNAKE2D] ---SL Version: 3.30 NVIDIA via Cg compiler
+[SNAKE2D] ---Max Vert: 1048576
+[SNAKE2D] ---glRenderer: NVIDIA Corporation, NVS 3100M/PCIe/SSE2
+[SNAKE2D] ---Forward compatible: true
+[SNAKE2D] ------------------------
+
+[SNAKE2D] ---BLIT: 1280x800
+[SNAKE2D] ------------------------
+
+[SNAKE2D]  class snake2d.Shader: 1, 
+[SNAKE2D]  class snake2d.Shader: 5, 
+[SNAKE2D] SOUND
+[SNAKE2D] ---AL version : 1.1 ALSOFT 1.25.1
+[SNAKE2D] ---AL vendor : OpenAL Community
+[SNAKE2D] ---AL renderer : OpenAL Soft
+[SNAKE2D] ---OpenALC10: true
+[SNAKE2D] ---OpenALC11: true
+[SNAKE2D] ---ALC_FREQUENCY: 44100Hz
+[SNAKE2D] ---ALC_REFRESH: 100Hz
+[SNAKE2D] ---ALC_SYNC: false
+[SNAKE2D] ---Created Mono Sources : 10
+[SNAKE2D] ---Created Stereo Sources : 6
+[SNAKE2D] ------------------------
+
+
+[GAME] (util.spritecomposer.Optimizer.java:58)
+[58]  TILE OPTIMIZING
+
+[GAME] (util.spritecomposer.Optimizer.java:243)
+[243] tile 8: 1536 cropped: 692 opaque: 1096, 
+      tile 16: 1792 cropped: 1575 opaque: 266, 
+      tile 24: 512 cropped: 440 opaque: 80, 
+      tile 32: 4096 cropped: 453 opaque: 3611, 
+[SNAKE2D] [RND] ---Initiating random, seed: -2290942070877098873
+[SNAKE2D]  class snake2d.Shader: 8, 
+
+[GAME] (script.ScriptLoad.java:157)
+[157] loading script jar 000_Tutorial
+      loading script jar 001_Tutorial
+      loading script jar HaulerSpawnerMOD
+[SNAKE2D] ERROR IN UPDATER DETECTED
+

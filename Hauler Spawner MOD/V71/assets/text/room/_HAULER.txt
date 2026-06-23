@@ -1,0 +1,22 @@
+INFO: {
+	NAME: "Hauler Spawner",
+	NAMES: "Hauler Spawners",
+	DESC: "Select a resource and this room will generate it directly into its internal storage. Output is capped by the room's own storage capacity.",
+	WIKI: {
+		CATEGORY: "Logistics",
+		NAME: "Hauler Spawner",
+		TEXT: "Hauler Spawners act like logistics rooms, but instead of fetching goods from elsewhere they generate the selected resource inside their own storage. The room stops producing when its internal storage is full.",
+	},
+},
+
+WORK: {
+	TITLE: "Hauler Spawner",
+	VERB: "Spawning",
+},
+
+ITEMS: [
+	{
+		NAME: "Spawner Hub",
+		DESC: "",
+	},
+],

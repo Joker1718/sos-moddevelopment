@@ -1,0 +1,5 @@
+NAME: "Hauler Spawner MOD",
+DESC: "Replaces the hauler room with a resource spawner variant that generates the selected resource into its own internal storage.",
+VERSION: "1.0",
+AUTHOR: "Codex",
+INFO: "Select a resource in the hauler UI and the building will generate it up to its internal storage limit.",

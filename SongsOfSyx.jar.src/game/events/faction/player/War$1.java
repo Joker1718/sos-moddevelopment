@@ -1,0 +1,59 @@
+/*    */ package game.events.faction.player;
+/*    */ 
+/*    */ import game.boosting.BValue;
+/*    */ import game.faction.npc.FactionNPC;
+/*    */ import game.faction.player.Player;
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ class null
+/*    */   implements BValue.BValuePlayerOnly
+/*    */ {
+/*    */   public double vGet(FactionNPC f) {
+/* 46 */     return 0.0D;
+/*    */   }
+/*    */ 
+/*    */   
+/*    */   public double vGet(Player f) {
+/* 51 */     return War.this.teachings;
+/*    */   }
+/*    */ }
+
+
+/* Location:              C:\Users\Administrator\Documents\Tasks\Works.Dump\SongsOfSyx\mods_development\SongsOfSyx.jar!\game\events\faction\player\War$1.class
+ * Java compiler version: 16 (60.0)
+ * JD-Core Version:       1.1.3
+ */

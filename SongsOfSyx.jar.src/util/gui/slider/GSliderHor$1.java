@@ -1,0 +1,51 @@
+/*    */ package util.gui.slider;
+/*    */ 
+/*    */ import snake2d.util.sprite.SPRITE;
+/*    */ import util.gui.misc.GButt;
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ class null
+/*    */   extends GButt.Glow
+/*    */ {
+/*    */   null(SPRITE $anonymous0) {
+/* 33 */     super($anonymous0);
+/*    */   }
+/*    */   
+/*    */   protected void renAction() {
+/* 37 */     activeSet((GSliderHor.this.target().get() > GSliderHor.this.target().min()));
+/*    */   }
+/*    */ 
+/*    */   
+/*    */   protected void clickA() {
+/* 42 */     if (GSliderHor.this.target().get() > GSliderHor.this.target().min())
+/* 43 */       GSliderHor.this.target().inc(-1); 
+/*    */   }
+/*    */ }
+
+
+/* Location:              C:\Users\Administrator\Documents\Tasks\Works.Dump\SongsOfSyx\mods_development\SongsOfSyx.jar\\util\gui\slider\GSliderHor$1.class
+ * Java compiler version: 16 (60.0)
+ * JD-Core Version:       1.1.3
+ */

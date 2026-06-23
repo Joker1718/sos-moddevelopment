@@ -1,0 +1,103 @@
+/*    */ package view.world.ui.faction;
+/*    */ 
+/*    */ import snake2d.SPRITE_RENDERER;
+/*    */ import snake2d.util.datatypes.RECTANGLE;
+/*    */ import snake2d.util.gui.renderable.RENDEROBJ;
+/*    */ import util.colors.GCOLOR;
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ class null
+/*    */   extends RENDEROBJ.RenderImp
+/*    */ {
+/*    */   null(int $anonymous0, int $anonymous1) {
+/* 91 */     super($anonymous0, $anonymous1);
+/*    */   }
+/*    */   
+/*    */   public void render(SPRITE_RENDERER r, float ds) {
+/* 95 */     GCOLOR.UI().border().render(r, (RECTANGLE)this.body);
+/*    */   }
+/*    */ }
+
+
+/* Location:              C:\Users\Administrator\Documents\Tasks\Works.Dump\SongsOfSyx\mods_development\SongsOfSyx.jar!\view\worl\\ui\faction\Realm$4.class
+ * Java compiler version: 16 (60.0)
+ * JD-Core Version:       1.1.3
+ */

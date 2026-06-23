@@ -1,0 +1,70 @@
+/*    */ package settlement.stats;
+/*    */ 
+/*    */ import game.faction.Faction;
+/*    */ import init.type.HCLASSES;
+/*    */ import settlement.stats.stat.STAT;
+/*    */ import util.data.DOUBLE_O;
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ class null
+/*    */   implements DOUBLE_O<Faction>
+/*    */ {
+/*    */   public double getD(Faction t) {
+/* 62 */     return s.data(HCLASSES.CITIZEN()).getD(null);
+/*    */   }
+/*    */ }
+
+
+/* Location:              C:\Users\Administrator\Documents\Tasks\Works.Dump\SongsOfSyx\mods_development\SongsOfSyx.jar!\settlement\stats\SValues$2.class
+ * Java compiler version: 16 (60.0)
+ * JD-Core Version:       1.1.3
+ */

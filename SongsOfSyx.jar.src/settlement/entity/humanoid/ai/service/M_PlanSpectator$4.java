@@ -1,0 +1,205 @@
+/*     */ package settlement.entity.humanoid.ai.service;
+/*     */ 
+/*     */ import settlement.entity.humanoid.Humanoid;
+/*     */ import settlement.entity.humanoid.ai.main.AI;
+/*     */ import settlement.entity.humanoid.ai.main.AIManager;
+/*     */ import settlement.entity.humanoid.ai.main.AISTATES;
+/*     */ import settlement.entity.humanoid.ai.main.AISUB;
+/*     */ import snake2d.util.rnd.RND;
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ class null
+/*     */   extends M_PlanSpectator.R
+/*     */ {
+/*     */   private AISTATES.Animation[] anima;
+/*     */   
+/*     */   null(M_PlanSpectator paramM_PlanSpectator2) {
+/* 180 */     this
+/*     */ 
+/*     */ 
+/*     */       
+/* 184 */       .anima = new AISTATES.Animation[] { (AI.STATES()).anima.wave, (AI.STATES()).anima.box, (AI.STATES()).anima.lay, (AI.STATES()).anima.stand };
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   protected AISUB.AISubActivation setAction(Humanoid a, AIManager d) {
+/* 190 */     return (AI.SUBS()).single.activate(a, d, this.anima[RND.rInt(this.anima.length)], (2 + RND.rInt(4)));
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   protected AISUB.AISubActivation res(Humanoid a, AIManager d) {
+/* 197 */     return M_PlanSpectator.this.stand.set(a, d);
+/*     */   }
+/*     */ }
+
+
+/* Location:              C:\Users\Administrator\Documents\Tasks\Works.Dump\SongsOfSyx\mods_development\SongsOfSyx.jar!\settlement\entity\humanoid\ai\service\M_PlanSpectator$4.class
+ * Java compiler version: 16 (60.0)
+ * JD-Core Version:       1.1.3
+ */
