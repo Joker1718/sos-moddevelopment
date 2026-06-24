@@ -1,0 +1,7 @@
+PROJECTILE_RELEASE_ROOM_ARTILLERY_CATAPULT: swing->Artillery*, 
+PROJECTILE_HIT_ROOM_ARTILLERY_CATAPULT: impact->Artillery*,
+PROJECTILE_RELEASE__DefaultProjectile: swing->Artillery*, 
+PROJECTILE_HIT__DefaultProjectile: impact->Artillery*,
+PROJECTILE_RELEASE_EQUIP_BOW: swing->Arrow*, 
+PROJECTILE_HIT_EQUIP_BOW: impact->Arrow*,
+

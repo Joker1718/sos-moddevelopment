@@ -1,0 +1,5 @@
+ROTTING_CORPSE: misc->Decay*,
+IN_PAIN_MOAN: human->pain*,
+SICK_MOAN: human->pain*,
+SLEEP: human->Sleep*,
+BODY_EXPLODE: gore->Squish_000,

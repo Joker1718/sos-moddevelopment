@@ -1,0 +1,27 @@
+ANIMAL_CALL_AUROCH: [
+	animal->Bull*,
+],
+ANIMAL_CALL_BALTICRAWLER: [
+	animal->Lizard*,
+],
+ANIMAL_CALL_DINORIS: [
+	animal->Dino*,
+],
+ANIMAL_CALL_ENTELODONT: [
+	animal->Pig*,
+],
+ANIMAL_CALL_GLOBDIEN: [
+	animal->Lizard*,
+],
+ANIMAL_CALL_ONX: [
+	animal->Sheep*,
+],
+ANIMAL_CALL_SMILODON: [
+	animal->Lion*,
+],
+ANIMAL_CALL_STAGBEAST: [
+	animal->Bull*,
+],
+ANIMAL_CALL_MOUNT: [
+	animal->Bull*,
+],

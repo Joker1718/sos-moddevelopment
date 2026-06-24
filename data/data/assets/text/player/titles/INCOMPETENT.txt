@@ -1,0 +1,2 @@
+NAME: "The Provider",
+DESC: "Gained by providing cozy homes to your subjects, while relying only on yourself. Your subjects become more self-sufficient, and repair some of their furnishings instead of throwing them out. Requires the mode Homestead to unlock.",

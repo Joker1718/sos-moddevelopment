@@ -1,0 +1,6 @@
+CLICK: gui->Click,
+HOVER: gui->Hover,
+
+LOGO: misc->_Logo,
+MENU: misc->_Menu_New,
+TORCH: misc->_Torch,

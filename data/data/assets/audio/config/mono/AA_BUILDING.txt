@@ -1,0 +1,12 @@
+BUILD_STRUCTURE__MUD: impact->Dig*,
+BUILD_STRUCTURE_GRAND: impact->Mason*,
+BUILD_STRUCTURE_STONE: impact->Mason*,
+BUILD_STRUCTURE_WOOD: impact->HammerSoft*,
+
+BUILD_FORTIFICATION_GRAND: impact->Mason*,
+BUILD_FORTIFICATION_STONE: impact->Mason*,
+BUILD_FORTIFICATION_WOOD: impact->HammerSoft*,
+
+BUILD_FENCE_BARRICADE: impact->Axe*,
+BUILD_FENCE_STONE: impact->Mine*,
+BUILD_FENCE_WOOD: impact->Axe*,

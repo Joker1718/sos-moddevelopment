@@ -1,0 +1,10 @@
+REQUIRES: [],
+SCRIPTS: [
+	000_Tutorial,
+],
+SAVE_LOCAL: false,
+CUTSCENE: {
+	IMAGE: tutorial->000,
+	MUSIC: misc->script->Tutorial,
+},
+
